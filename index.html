@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites</title>
+  <link rel="stylesheet" href="style.css"> <!-- Linking CSS -->
+</head>
+<body>
+
+  <header>
+    <h1>🍴 Delicious Bites</h1>
+    <p>Taste the best food in town!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2 class="menu-title">Our Menu</h2>
+    <div class="menu">
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?pizza" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>Hot, cheesy, and loaded with toppings!</p>
+<button onclick="orderFood('Cheese Pizza')">Order Now</button>
+      </div>
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?burger" alt="Burger">
+        <h3>Beef Burger</h3>
+        <p>Juicy beef patty with fresh veggies.</p>
+        <button onclick="orderFood('Beef Burger')">Order Now</button>
+      </div>
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?pasta" alt="Pasta">
+        <h3>Italian Pasta</h3>
+        <p>Creamy, rich, and full of flavor.</p>
+        <button onclick="orderFood('Italian Pasta')">Order Now</button>
+      </div>
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?dessert" alt="Dessert">
+        <h3>Chocolate Cake</h3>
+        <p>Sweet delight with rich chocolate layers.</p>
+        <button onclick="orderFood('Chocolate Cake')">Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>📍 Location: Main Street, Food City</p>
+    <p>📞 Call us: ‪+91 98765 43210‬</p>
+    <p>© 2025 Delicious Bites. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script> <!-- Linking JavaScript -->
+</body>
+</html>
