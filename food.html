@@ -1,0 +1,122 @@
+Here’s a simple food webpage using HTML 🍽. It includes a title, navigation, menu section, images, and contact details.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+    }
+    header {
+      background-color: #ff6347;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff6347;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .food-item {
+      background: white;
+      width: 250px;
+      margin: 15px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .food-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .food-item h3 {
+      margin: 10px 0;
+    }
+    .food-item p {
+      padding: 0 10px 15px;
+      color: #555;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍴 Delicious Bites</h1>
+    <p>Taste the best food in town!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2 style="text-align:center; margin-top:20px;">Our Menu</h2>
+    <div class="menu">
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?pizza" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>Hot, cheesy, and loaded with toppings!</p>
+      </div>
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?burger" alt="Burger">
+        <h3>Beef Burger</h3>
+        <p>Juicy beef patty with fresh veggies.</p>
+      </div>
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?pasta" alt="Pasta">
+        <h3>Italian Pasta</h3>
+        <p>Creamy, rich, and full of flavor.</p>
+      </div>
+      <div class="food-item">
+        <img src="https://source.unsplash.com/250x180/?dessert" alt="Dessert">
+        <h3>Chocolate Cake</h3>
+        <p>Sweet delight with rich chocolate layers.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>📍 Location: Main Street, Food City</p>
+    <p>📞 Call us: +91 98765 43210</p>
+    <p>© 2025 Delicious Bites. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+👉 You can copy this code into a file named food.html and open it in your browser.
+
+Do you want me to make it only HTML (without CSS), or a styled one like above is okay for your project?
